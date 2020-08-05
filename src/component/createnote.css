@@ -1,0 +1,35 @@
+textarea {
+   
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: transparent;
+    border: 0px solid;
+    resize: none;
+    font-size: 20px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 0px solid;
+    box-sizing: border-box;
+    font-size: 30px;
+  }
+  
+  .main {
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
+  }
+  textarea:focus, input:focus{
+    outline: none;
+}
+.mainflex {
+ display:flex;
+ flex-wrap: wrap;
+
+}
